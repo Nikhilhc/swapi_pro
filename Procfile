@@ -1,1 +1,0 @@
-web: gunicorn swapi_pro.wsgi
