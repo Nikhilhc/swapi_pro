@@ -28,3 +28,5 @@ In backend it connects to swapi api base url where it fetches the resources avai
 You can select the resource in which you want to search for.
 If in case you need all the data from the particular resource,type **all** in search bar and you get all the details of the selected resource.
 
+This website is deployed in heroku cloud
+Link: https://swapi1-pro.herokuapp.com/starwars/home/
