@@ -15,14 +15,14 @@ OUTPUT:
 Watching for file changes with StatReloader
 Performing system checks...
 
-URL:  https://swapi.dev/api
-STATUS_CODE:  200
-Content-type:  application/json
-System check identified no issues (0 silenced).
-June 19, 2021 - 16:03:37
-Django version 2.2, using settings 'swapi_pro.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
+  URL:  https://swapi.dev/api
+  STATUS_CODE:  200
+  Content-type:  application/json
+  System check identified no issues (0 silenced).
+  June 19, 2021 - 16:03:37
+  Django version 2.2, using settings 'swapi_pro.settings'
+  Starting development server at http://127.0.0.1:8000/
+  Quit the server with CTRL-BREAK.
 
 In backend it connects to swapi api base url where it fetches the resources available in that api.
 You can select the resource in which you want to search for.
