@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-4">
+    <div class="col-sm-12 mb-4">
+        <h4>Please enter the name to search in the {{slug}} directory or enter 'all' to get entire list</h4>
+    </div>
+    <div class="col-md-4 col-lg-6 col-sm-6 mt-5">
+            <form action="" method="post">
+                {% csrf_token %}
+                <input name="name" placeholder="Search" type="text" id="form31" class="form-control">
+            </form>
+        <a class="btn" href="{% url 'home' %}">Home</a>
+    </div>
+
+</div>
+<div style="padding-left:10px">
+    {{html|safe}}
+</div>
+</body>
+</html>
